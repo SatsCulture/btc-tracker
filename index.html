@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BTC Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #111;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 2rem;
+    }
+    ul li {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 0.8rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    }
+    .btn {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.8rem 1.6rem;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background 0.2s ease;
+    }
+    .btn:hover {
+      background: #333;
+    }
+    .qr {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .qr img {
+      width: 180px;
+      margin-top: 0.5rem;
+    }
+    code {
+      background: #eee;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Track Your Bitcoin Stack. Effortlessly.</h1>
+    <p>A minimal self-hosted tool to track your Bitcoin DCA – with privacy, structure and sovereignty.</p>
+
+    <ul>
+      <li>🟠 No KYC. No platform. Just your sats.</li>
+      <li>📈 Automatic summaries by stack</li>
+      <li>🔐 Works with self-custody (e.g. BitBox)</li>
+      <li>🧾 CSV export included</li>
+    </ul>
+
+    <a href="https://github.com/deinprojekt" class="btn" target="_blank">📁 Download on GitHub</a>
+
+    <div class="qr">
+      <p>If you find this useful, feel free to send some sats:</p>
+      <code>bc1qyourbtcaddresshere</code><br />
+      <img src="qr-code.png" alt="BTC QR Code" />
+    </div>
+  </div>
+</body>
+</html>
